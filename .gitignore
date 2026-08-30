@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Vercel
+.vercel/
+
+# Project
+drogon_accounts.json
+accounts.json
+*.log
+*.txt
+*.json
+!package.json
+!requirements.txt
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
