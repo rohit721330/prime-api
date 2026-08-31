@@ -106,12 +106,14 @@ DEVICE_PROFILES = [
     {"device": "OnePlus 8 Pro", "carrier": "Verizon", "city": "Chennai", "gpu": "Adreno 650"},
     {"device": "OnePlus 8", "carrier": "AT&T", "city": "Pune", "gpu": "Adreno 650"},
     {"device": "OnePlus 8T", "carrier": "T-Mobile", "city": "Ahmedabad", "gpu": "Adreno 650"},
+    {"device": "OnePlus Nord 4", "carrier": "T-Mobile", "city": "Delhi", "gpu": "Adreno 720"},
     {"device": "OnePlus Nord 3", "carrier": "Jio", "city": "Lucknow", "gpu": "Mali-G610"},
     {"device": "OnePlus Nord 2", "carrier": "Airtel", "city": "Nagpur", "gpu": "Mali-G77"},
     {"device": "OnePlus Nord CE", "carrier": "Vodafone", "city": "Indore", "gpu": "Adreno 619"},
-    {"device": "OnePlus Nord 4", "carrier": "T-Mobile", "city": "Delhi", "gpu": "Adreno 720"},
     
     # ===== XIAOMI =====
+    {"device": "Xiaomi 14 Pro", "carrier": "T-Mobile", "city": "Bangalore", "gpu": "Adreno 750"},
+    {"device": "Xiaomi 14", "carrier": "Verizon", "city": "Hyderabad", "gpu": "Adreno 750"},
     {"device": "Xiaomi 13 Pro", "carrier": "T-Mobile", "city": "Bangalore", "gpu": "Adreno 660"},
     {"device": "Xiaomi 13 Pro 5G", "carrier": "Verizon", "city": "Los Angeles", "gpu": "Adreno 660"},
     {"device": "Xiaomi 13", "carrier": "Verizon", "city": "Hyderabad", "gpu": "Adreno 660"},
@@ -125,9 +127,11 @@ DEVICE_PROFILES = [
     {"device": "Xiaomi 11T", "carrier": "BSNL", "city": "Pune", "gpu": "Mali-G77"},
     {"device": "Xiaomi 11X", "carrier": "Jio", "city": "Surat", "gpu": "Adreno 650"},
     {"device": "Xiaomi Redmi Note 13 Pro", "carrier": "Airtel", "city": "Jaipur", "gpu": "Adreno 710"},
+    {"device": "Xiaomi Redmi Note 13", "carrier": "Jio", "city": "Mumbai", "gpu": "Mali-G610"},
     {"device": "Xiaomi Redmi Note 12", "carrier": "Airtel", "city": "Bhopal", "gpu": "Adreno 610"},
     {"device": "Xiaomi Redmi Note 11", "carrier": "Vodafone", "city": "Patna", "gpu": "Adreno 610"},
     {"device": "Xiaomi Redmi Note 10", "carrier": "BSNL", "city": "Vadodara", "gpu": "Adreno 610"},
+    {"device": "Xiaomi Redmi K70", "carrier": "T-Mobile", "city": "Mumbai", "gpu": "Adreno 740"},
     {"device": "Xiaomi Redmi K60", "carrier": "T-Mobile", "city": "Mumbai", "gpu": "Adreno 730"},
     {"device": "Xiaomi Redmi K50", "carrier": "T-Mobile", "city": "Jaipur", "gpu": "Mali-G610"},
     {"device": "Xiaomi Redmi K40", "carrier": "Verizon", "city": "Indore", "gpu": "Adreno 650"},
@@ -135,11 +139,13 @@ DEVICE_PROFILES = [
     {"device": "Xiaomi Poco F5", "carrier": "Jio", "city": "Lucknow", "gpu": "Adreno 640"},
     {"device": "Xiaomi Poco X6", "carrier": "Airtel", "city": "Nagpur", "gpu": "Adreno 710"},
     {"device": "Xiaomi Poco X5", "carrier": "Airtel", "city": "Nagpur", "gpu": "Adreno 619"},
+    {"device": "Xiaomi Poco M6", "carrier": "Vodafone", "city": "Coimbatore", "gpu": "Mali-G52"},
     {"device": "Xiaomi Poco M5", "carrier": "Vodafone", "city": "Coimbatore", "gpu": "Mali-G52"},
     
     # ===== PIXEL =====
     {"device": "Pixel 8 Pro", "carrier": "Verizon", "city": "New York", "gpu": "Mali-G715"},
     {"device": "Pixel 8", "carrier": "AT&T", "city": "Los Angeles", "gpu": "Mali-G715"},
+    {"device": "Pixel 8a", "carrier": "T-Mobile", "city": "Chicago", "gpu": "Mali-G715"},
     {"device": "Pixel 7 Pro", "carrier": "Airtel", "city": "Bhopal", "gpu": "Mali-G78"},
     {"device": "Pixel 7 Pro 5G", "carrier": "T-Mobile", "city": "Boston", "gpu": "Mali-G78"},
     {"device": "Pixel 7", "carrier": "Vodafone", "city": "Patna", "gpu": "Mali-G78"},
@@ -148,6 +154,8 @@ DEVICE_PROFILES = [
     {"device": "Pixel 6 Pro 5G", "carrier": "Verizon", "city": "San Francisco", "gpu": "Mali-G78"},
     {"device": "Pixel 6", "carrier": "Jio", "city": "Mumbai", "gpu": "Mali-G78"},
     {"device": "Pixel 6a", "carrier": "Airtel", "city": "Delhi", "gpu": "Mali-G78"},
+    {"device": "Pixel Fold", "carrier": "Verizon", "city": "New York", "gpu": "Mali-G78"},
+    {"device": "Pixel Tablet", "carrier": "AT&T", "city": "Chicago", "gpu": "Mali-G78"},
     {"device": "Pixel 5", "carrier": "T-Mobile", "city": "Chicago", "gpu": "Adreno 620"},
     {"device": "Pixel 4 XL", "carrier": "Verizon", "city": "Seattle", "gpu": "Adreno 640"},
     {"device": "Pixel 4", "carrier": "AT&T", "city": "Miami", "gpu": "Adreno 640"},
@@ -160,12 +168,12 @@ DEVICE_PROFILES = [
     {"device": "Moto Edge 30", "carrier": "BSNL", "city": "Nagpur", "gpu": "Adreno 642L"},
     {"device": "Moto Edge 20 Pro", "carrier": "Jio", "city": "Bangalore", "gpu": "Adreno 660"},
     {"device": "Moto Edge 20", "carrier": "Airtel", "city": "Chennai", "gpu": "Adreno 642L"},
-    {"device": "Moto G100", "carrier": "Vodafone", "city": "Hyderabad", "gpu": "Adreno 650"},
-    {"device": "Moto G200", "carrier": "T-Mobile", "city": "Pune", "gpu": "Adreno 660"},
     {"device": "Moto G84", "carrier": "Jio", "city": "Indore", "gpu": "Adreno 619"},
     {"device": "Moto G82", "carrier": "BSNL", "city": "Surat", "gpu": "Adreno 618"},
     {"device": "Moto G72", "carrier": "Jio", "city": "Indore", "gpu": "Mali-G52"},
     {"device": "Moto G62", "carrier": "Airtel", "city": "Bhopal", "gpu": "Adreno 619"},
+    {"device": "Moto G100", "carrier": "Vodafone", "city": "Hyderabad", "gpu": "Adreno 650"},
+    {"device": "Moto G200", "carrier": "T-Mobile", "city": "Pune", "gpu": "Adreno 660"},
     
     # ===== IPHONE =====
     {"device": "iPhone 15 Pro Max", "carrier": "Airtel", "city": "Ranchi", "gpu": "Apple A17"},
@@ -183,8 +191,6 @@ DEVICE_PROFILES = [
     {"device": "iPhone 12 Pro Max", "carrier": "Vodafone", "city": "Jaipur", "gpu": "Apple A14"},
     {"device": "iPhone 12 Pro", "carrier": "BSNL", "city": "Lucknow", "gpu": "Apple A14"},
     {"device": "iPhone 12", "carrier": "T-Mobile", "city": "Pune", "gpu": "Apple A14"},
-    {"device": "iPhone 11 Pro Max", "carrier": "Verizon", "city": "Dallas", "gpu": "Apple A13"},
-    {"device": "iPhone 11", "carrier": "AT&T", "city": "Houston", "gpu": "Apple A13"},
     {"device": "iPhone SE 3", "carrier": "Verizon", "city": "San Jose", "gpu": "Apple A15"},
     {"device": "iPhone SE 2", "carrier": "AT&T", "city": "Dallas", "gpu": "Apple A13"},
     
@@ -223,38 +229,40 @@ DEVICE_PROFILES = [
     
     # ===== OPPO =====
     {"device": "OPPO Find X7 Pro", "carrier": "T-Mobile", "city": "Mumbai", "gpu": "Adreno 740"},
+    {"device": "OPPO Find X7", "carrier": "Verizon", "city": "Delhi", "gpu": "Adreno 740"},
     {"device": "OPPO Find X6 Pro", "carrier": "T-Mobile", "city": "Delhi", "gpu": "Adreno 740"},
     {"device": "OPPO Find X6", "carrier": "Vodafone", "city": "Mumbai", "gpu": "Mali-G710"},
     {"device": "OPPO Find X5 Pro", "carrier": "Airtel", "city": "Bangalore", "gpu": "Adreno 730"},
     {"device": "OPPO Find X5", "carrier": "BSNL", "city": "Hyderabad", "gpu": "Adreno 730"},
     {"device": "OPPO Reno 11 Pro", "carrier": "Jio", "city": "Chennai", "gpu": "Adreno 720"},
+    {"device": "OPPO Reno 11", "carrier": "Airtel", "city": "Pune", "gpu": "Adreno 710"},
     {"device": "OPPO Reno 10 Pro", "carrier": "Jio", "city": "Chennai", "gpu": "Adreno 730"},
     {"device": "OPPO Reno 10", "carrier": "Airtel", "city": "Pune", "gpu": "Adreno 710"},
-    {"device": "OPPO Reno 9 Pro", "carrier": "Vodafone", "city": "Ahmedabad", "gpu": "Adreno 640"},
-    {"device": "OPPO Reno 9", "carrier": "BSNL", "city": "Jaipur", "gpu": "Adreno 610"},
     {"device": "OPPO A98", "carrier": "Jio", "city": "Lucknow", "gpu": "Adreno 610"},
     {"device": "OPPO A78", "carrier": "Airtel", "city": "Nagpur", "gpu": "Mali-G52"},
     
     # ===== VIVO =====
     {"device": "Vivo X100 Pro", "carrier": "T-Mobile", "city": "Mumbai", "gpu": "Mali-G720"},
+    {"device": "Vivo X100", "carrier": "Vodafone", "city": "Delhi", "gpu": "Mali-G720"},
     {"device": "Vivo X90 Pro", "carrier": "T-Mobile", "city": "Mumbai", "gpu": "Mali-G715"},
     {"device": "Vivo X90", "carrier": "Vodafone", "city": "Delhi", "gpu": "Mali-G715"},
     {"device": "Vivo X80 Pro", "carrier": "Airtel", "city": "Bangalore", "gpu": "Mali-G77"},
     {"device": "Vivo X80", "carrier": "BSNL", "city": "Hyderabad", "gpu": "Mali-G77"},
     {"device": "Vivo V29 Pro", "carrier": "Jio", "city": "Chennai", "gpu": "Adreno 720"},
+    {"device": "Vivo V29", "carrier": "Airtel", "city": "Pune", "gpu": "Adreno 710"},
     {"device": "Vivo V27 Pro", "carrier": "Jio", "city": "Chennai", "gpu": "Mali-G610"},
     {"device": "Vivo V27", "carrier": "Airtel", "city": "Pune", "gpu": "Mali-G610"},
-    {"device": "Vivo V25 Pro", "carrier": "Vodafone", "city": "Ahmedabad", "gpu": "Mali-G77"},
-    {"device": "Vivo V25", "carrier": "BSNL", "city": "Jaipur", "gpu": "Mali-G68"},
     {"device": "Vivo Y100", "carrier": "Jio", "city": "Lucknow", "gpu": "Adreno 610"},
     {"device": "Vivo Y75", "carrier": "Airtel", "city": "Nagpur", "gpu": "Mali-G52"},
     
     # ===== REALME =====
     {"device": "Realme GT 5", "carrier": "T-Mobile", "city": "Mumbai", "gpu": "Adreno 740"},
+    {"device": "Realme GT 5 Pro", "carrier": "Verizon", "city": "Delhi", "gpu": "Adreno 740"},
     {"device": "Realme GT 3", "carrier": "T-Mobile", "city": "Mumbai", "gpu": "Adreno 740"},
     {"device": "Realme GT 2 Pro", "carrier": "Vodafone", "city": "Delhi", "gpu": "Adreno 730"},
     {"device": "Realme GT 2", "carrier": "Airtel", "city": "Bangalore", "gpu": "Adreno 730"},
     {"device": "Realme 12 Pro", "carrier": "Jio", "city": "Chennai", "gpu": "Adreno 710"},
+    {"device": "Realme 12", "carrier": "Airtel", "city": "Pune", "gpu": "Mali-G610"},
     {"device": "Realme 10 Pro", "carrier": "BSNL", "city": "Hyderabad", "gpu": "Adreno 610"},
     {"device": "Realme 10", "carrier": "Jio", "city": "Chennai", "gpu": "Mali-G57"},
     {"device": "Realme 9 Pro", "carrier": "Airtel", "city": "Pune", "gpu": "Adreno 618"},
@@ -264,6 +272,7 @@ DEVICE_PROFILES = [
     
     # ===== HONOR =====
     {"device": "Honor Magic 6 Pro", "carrier": "AT&T", "city": "New York", "gpu": "Adreno 740"},
+    {"device": "Honor Magic 6", "carrier": "T-Mobile", "city": "Mumbai", "gpu": "Adreno 740"},
     {"device": "Honor Magic 5 Pro", "carrier": "AT&T", "city": "New York", "gpu": "Adreno 740"},
     {"device": "Honor Magic 5", "carrier": "T-Mobile", "city": "Mumbai", "gpu": "Adreno 740"},
     {"device": "Honor Magic 4 Pro", "carrier": "Verizon", "city": "Delhi", "gpu": "Adreno 730"},
@@ -274,6 +283,7 @@ DEVICE_PROFILES = [
     
     # ===== TECNO =====
     {"device": "Tecno Camon 20 Pro", "carrier": "Airtel", "city": "Mumbai", "gpu": "Mali-G57"},
+    {"device": "Tecno Camon 20", "carrier": "Vodafone", "city": "Delhi", "gpu": "Mali-G57"},
     {"device": "Tecno Camon 19 Pro", "carrier": "Vodafone", "city": "Delhi", "gpu": "Mali-G57"},
     {"device": "Tecno Spark 10 Pro", "carrier": "Jio", "city": "Bangalore", "gpu": "Mali-G52"},
     {"device": "Tecno Spark 9 Pro", "carrier": "BSNL", "city": "Hyderabad", "gpu": "Mali-G52"},
@@ -318,18 +328,23 @@ DEVICE_PROFILES = [
     {"device": "Lenovo Legion Phone 3", "carrier": "Verizon", "city": "Dallas", "gpu": "Adreno 730"},
     {"device": "Lenovo Tab P12 Pro", "carrier": "AT&T", "city": "New York", "gpu": "Adreno 650"},
     
-    # ===== POCO (Xiaomi Sub-brand) =====
+    # ===== POCO =====
     {"device": "Poco F6 Pro", "carrier": "Jio", "city": "Mumbai", "gpu": "Adreno 740"},
+    {"device": "Poco F6", "carrier": "Airtel", "city": "Delhi", "gpu": "Adreno 740"},
     {"device": "Poco F5 Pro", "carrier": "Jio", "city": "Mumbai", "gpu": "Adreno 740"},
     {"device": "Poco F5", "carrier": "Airtel", "city": "Delhi", "gpu": "Adreno 640"},
     {"device": "Poco X6 Pro", "carrier": "Airtel", "city": "Delhi", "gpu": "Adreno 710"},
+    {"device": "Poco X6", "carrier": "Vodafone", "city": "Bangalore", "gpu": "Adreno 710"},
     {"device": "Poco X5 Pro", "carrier": "Vodafone", "city": "Bangalore", "gpu": "Adreno 619"},
     {"device": "Poco X5", "carrier": "BSNL", "city": "Hyderabad", "gpu": "Adreno 619"},
+    {"device": "Poco M6 Pro", "carrier": "Jio", "city": "Chennai", "gpu": "Mali-G57"},
+    {"device": "Poco M6", "carrier": "Airtel", "city": "Pune", "gpu": "Mali-G52"},
     {"device": "Poco M5 Pro", "carrier": "Jio", "city": "Chennai", "gpu": "Mali-G57"},
     {"device": "Poco M5", "carrier": "Airtel", "city": "Pune", "gpu": "Mali-G52"},
     
-    # ===== IQOO (Vivo Sub-brand) =====
+    # ===== IQOO =====
     {"device": "iQOO 12 Pro", "carrier": "T-Mobile", "city": "Mumbai", "gpu": "Adreno 740"},
+    {"device": "iQOO 12", "carrier": "Vodafone", "city": "Delhi", "gpu": "Adreno 740"},
     {"device": "iQOO 11 Pro", "carrier": "T-Mobile", "city": "Mumbai", "gpu": "Adreno 740"},
     {"device": "iQOO 11", "carrier": "Vodafone", "city": "Delhi", "gpu": "Adreno 740"},
     {"device": "iQOO 10 Pro", "carrier": "Airtel", "city": "Bangalore", "gpu": "Adreno 730"},
@@ -338,20 +353,15 @@ DEVICE_PROFILES = [
     {"device": "iQOO 9", "carrier": "Airtel", "city": "Pune", "gpu": "Adreno 730"},
     {"device": "iQOO Z7 Pro", "carrier": "Vodafone", "city": "Ahmedabad", "gpu": "Mali-G610"},
     {"device": "iQOO Z7", "carrier": "BSNL", "city": "Jaipur", "gpu": "Mali-G610"},
-    
-    # ===== GOOGLE (extra) =====
-    {"device": "Google Pixel Fold", "carrier": "Verizon", "city": "New York", "gpu": "Mali-G78"},
-    {"device": "Google Pixel Tablet", "carrier": "AT&T", "city": "Chicago", "gpu": "Mali-G78"},
-    
-    # ===== FAIRPHONE =====
-    {"device": "Fairphone 5", "carrier": "T-Mobile", "city": "Amsterdam", "gpu": "Adreno 619"},
-    {"device": "Fairphone 4", "carrier": "Vodafone", "city": "London", "gpu": "Adreno 619"},
+    {"device": "iQOO Z6", "carrier": "Jio", "city": "Lucknow", "gpu": "Adreno 619"},
 ]
 
-ANDROID_VERSIONS = ["11", "12", "13", "14"]
-LANGUAGES = ["en", "hi", "id", "th", "pt", "ar", "es", "fr", "de", "it", "ru", "ja", "ko"]
+ANDROID_VERSIONS = ["11", "12", "13", "14", "15"]
+LANGUAGES = ["en", "hi", "id", "th", "pt", "ar", "es", "fr", "de", "it", "ru", "ja", "ko", "vi", "ms", "tl"]
 
-# ===== RANDOM HELPERS (remain same) =====
+# ============================================================
+#  RANDOM HELPERS
+# ============================================================
 def random_device_info():
     profile = random.choice(DEVICE_PROFILES)
     return {
@@ -378,7 +388,9 @@ def get_public_ip():
     except:
         return "1.2.3.4"
 
-# ===== PROTOBUF & API FUNCTIONS (same as before) =====
+# ============================================================
+#  PROTOBUF HELPERS
+# ============================================================
 def varint_encode(n):
     out = []
     while True:
@@ -454,7 +466,9 @@ def parse_proto(data):
             result[field] = val
     return result
 
-# ===== API FUNCTIONS =====
+# ============================================================
+#  API FUNCTIONS
+# ============================================================
 def create_session():
     s = requests.Session()
     s.mount('https://', TLSAdapter())
@@ -679,7 +693,9 @@ def decode_nickname(jwt):
     except:
         return None
 
-# ===== MAIN GENERATOR FUNCTIONS =====
+# ============================================================
+#  MAIN GENERATOR FUNCTIONS
+# ============================================================
 def generate_account(region="IND", retries=3):
     device_profile = random_device_info()
     session = create_session()
