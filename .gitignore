@@ -20,9 +20,6 @@ drogon_accounts.json
 accounts.json
 *.log
 *.txt
-*.json
-!package.json
-!requirements.txt
 
 # OS
 .DS_Store
