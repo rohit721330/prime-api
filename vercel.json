@@ -1,8 +1,7 @@
 {
   "functions": {
     "api/index.py": {
-      "runtime": "python3.9",
-      "maxDuration": 30
+      "runtime": "@vercel/python@4.7.0"
     }
   },
   "rewrites": [
@@ -10,8 +9,5 @@
       "source": "/(.*)",
       "destination": "/api/index.py"
     }
-  ],
-  "env": {
-    "PYTHONPATH": "."
-  }
+  ]
 }
