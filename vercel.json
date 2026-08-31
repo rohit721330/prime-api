@@ -1,19 +1,55 @@
 {
   "functions": {
     "api/index.py": {
-      "runtime": "python3.9"
+      "runtime": "python3.9",
+      "maxDuration": 30
     }
   },
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/api/index.py"
+    },
+    {
+      "src": "/health",
+      "dest": "/api/index.py"
+    },
+    {
+      "src": "/docs",
+      "dest": "/api/index.py"
+    },
+    {
+      "src": "/redoc",
+      "dest": "/api/index.py"
+    },
+    {
+      "src": "/openapi.json",
+      "dest": "/api/index.py"
+    },
+    {
+      "src": "/generate/single",
+      "dest": "/api/index.py"
+    },
+    {
+      "src": "/generate/bulk",
+      "dest": "/api/index.py"
+    },
+    {
+      "src": "/generate",
+      "dest": "/api/index.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.py"
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",
       "destination": "/api/index.py"
     }
   ],
-  "builds": [
-    {
-      "src": "api/index.py",
-      "use": "@vercel/python"
-    }
-  ]
+  "env": {
+    "PYTHONPATH": "."
+  }
 }
